@@ -10,20 +10,20 @@ package = "mjolnir._asm.utf8_53"
 --    changing the module's source code.
 --
 --    Note: the version must match the version in the filename.
-version = "0.1-1"
+version = "0.2-1"
 
 -- General metadata:
 
-local url = "github.com/asmagill/mjolnir_asm.utf8_53"
+local url = "github.com/asmagill/mjolnir_asm.data"
 local desc = "Functions providing basic support for UTF-8 encodings within Mjolnir."
 
 -- LuaDist source
 source = {
-  tag = "0.1-1",
+  tag = "0.2-1",
   url = "git://github.com/LuaDist-testing/mjolnir._asm.utf8_53.git"
 }
 -- Original source
--- source = {url = "git://" .. url}
+-- source = {url = "git://" .. url, dir = "mjolnir_asm.data/utf8_53"}
 -- description = {
 --   summary = desc,
 --   detailed = desc..[[
